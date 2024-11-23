@@ -1,0 +1,10 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+    background-color: #e6e6ff;
+    width: 100vw;
+    overflow: hidden;
+    font-family: "Montserrat", "Helvetica Neue",;
+}
