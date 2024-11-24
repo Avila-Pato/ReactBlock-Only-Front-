@@ -21,9 +21,33 @@ const Navbar = () => {
         >
           {open ? "x" : "=" }
         </div>
+        {/* Mobile List */}
+        <div className={`w-full h-screen flex flex-col items-center justify-center gap-8 font-medium text-lg absolute top-16 bg-[#a6a6ff]
+        transition-all ease-in-out
+          ${ open ? "-right-0" : "-right-[100%]"}
+          `}>
+           <a href="#" className="">Home</a>
+        <a href="#" className="">Trending</a>
+        <a href="#" className="">Most Popular</a>
+        <a href="#" className="">About</a>
+        <a href="#" className="">
+          <button className="py-2 px-4 rounded-3xl bg-blue-700 text-white">Login 👋 </button>
+        </a>
+
+        </div>
       </div>
       {/* Desktop menu */}
-      <div className="hidden md:flex"></div>
+      <div className="hidden md:flex items-center xl:gap-12 md:gap-12 font-medium ">
+        <a href="#" className="">Home</a>
+        <a href="#" className="">Trending</a>
+        <a href="#" className="">Most Popular</a>
+        <a href="#" className="">About</a>
+        <a href="#" className="">
+          <button className="py-2 px-4 rounded-3xl bg-blue-700 text-white">Login 👋 </button>
+        </a>
+
+
+      </div>
 
     </div>
   )
