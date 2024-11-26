@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   plugins: [react()],
   build: {
-    outDir: 'build', // El directorio de salida para los archivos construidos
+    outDir: 'dist', // El directorio de salida para los archivos construidos
     rollupOptions: {
       input: 'index.html', // Asegúrate de que Vite sepa cuál es el archivo principal de entrada
     },
