@@ -21,8 +21,8 @@ const Search = () => {
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 24 24"
-        width="40"
-        height="40"
+        width="20"
+        height="20"
         fill="none"
         stroke="gray"
 
@@ -34,7 +34,7 @@ const Search = () => {
       <input
         type="text"
         placeholder="Busca un post..."
-        className="bg-transparent w-full py-2 pl-4 text-lg border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+        className="bg-transparent"
         onKeyDown={handleKeyPress}
       />
     </div>
