@@ -5,8 +5,12 @@ const PostListItem = () => {
   return (
     <div className="flex flex-col xl:flex-row gap-8">
       {/* Imagen */}
-      <div className="md:hidden xl:block xl:w-1/3">
-        <Image src="postImg.jpeg" className="rounded-2xl object-cover" w="735"/>
+      <div className="md:hidden xl:block xl:w-1/2 sm:w-1/3  ">
+        <Image
+          src="postImg.jpeg"
+          className="rounded-2xl object-cover"
+          w="735"
+        />
       </div>
       {/* Detalles */}
       <div className="flex flex-col gap-4  xl:w-2/3 ">
@@ -20,16 +24,18 @@ const PostListItem = () => {
           <Link className="text-blue-800">Web Design</Link>
           <span>2 days ago</span>
         </div>
-        <p>
+        <p className="">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+          enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+          ut Sint ipsa fuga nihil numquam, quam dicta quas
+        
+    
+       
         </p>
-        <Link to="/test" className="underline text-blue-800 text-sm">Read More</Link>
+        <Link to="/test" className="underline text-blue-800 text-sm">
+          Read More
+        </Link>
       </div>
     </div>
   );
