@@ -6,7 +6,5 @@ export default defineConfig({
   build: {
     outDir: 'build', // Este es el directorio de salida que Vercel tomará
   },
-  server: {
-    port: 3000, 
-  },
 });
+
