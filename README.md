@@ -1,10 +1,10 @@
 # Proyecto Frontend
 
-Este proyecto es la parte frontend de una aplicación MERN web desarrollada con **React** y varias tecnologías relacionadas. A continuación, se describen las dependencias principales, las características del proyecto y cómo funciona el front...
+Este proyecto es la parte frontend de una aplicación MERN web desarrollada con **React** y varias tecnologías relacionadas. A continuación, describo las dependencias principales, las características del proyecto...
 
 ## Descripción
 
-El frontend de esta aplicación está construido utilizando **React**, **Vite**, y **Tailwind CSS**. Proporciona una experiencia de usuario interactiva con una interfaz limpia y moderna. Se utilizan varias bibliotecas para facilitar la gestión del estado, la autenticación, entre otros.
+El frontend de esta aplicación está construido utilizando **React** y **Tailwind CSS**. Proporciona una experiencia de usuario interactiva con una interfaz limpia y moderna. Se utilizan varias bibliotecas para facilitar la gestión del estado, la autenticación, entre otros.
 
 ## Tecnologías utilizadas
 
