@@ -10,7 +10,7 @@ const Write = () => {
   }
 
   if (isLoaded && !isSignedIn) {
-    return <div className="">You should login if you want to write a blog!</div>;
+    return <div className="flex flex-col text-center justify-center h-screen font-bold text-xl">Sorry but if you want to use Auth you have to deployment the full-stack </div>;
   }
 
   return (

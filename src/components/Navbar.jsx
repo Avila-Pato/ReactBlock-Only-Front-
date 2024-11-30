@@ -49,7 +49,7 @@ const Navbar = () => {
           </Link>
           <Link to="/" className="">
             <button className="py-2 px-4 rounded-3xl bg-blue-700 text-white">
-              Login 👋{" "}
+              Login 👋 {" "}
             </button>
           </Link>
         </div>
@@ -70,7 +70,7 @@ const Navbar = () => {
         </Link>
             {/* Confiurando Link con Clerk */}
         <SignedOut>
-          <Link to="/login">
+          <Link to="/register">
             <button className="py-2 px-4 rounded-3xl bg-blue-700 text-white">
               Login 👋{" "}
             </button>
