@@ -19,6 +19,7 @@ const queryClient = new QueryClient();
 // Configurando Clerk para su uso 
 const PUBLISHABLE_KEY = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY;
 
+
 if (!PUBLISHABLE_KEY) {
   throw new Error("Missing Publishable Key");
 }
